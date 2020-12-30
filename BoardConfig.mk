@@ -14,20 +14,20 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lge/flashlmdd
+DEVICE_PATH := device/lge/mh2lm
 
 # inherit from common v50
 -include device/lge/flash-common/BoardConfigCommon.mk
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.hardware=flashlmdd
+BOARD_KERNEL_CMDLINE += androidboot.hardware=mh2lm
 
 # Recovery
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.flashlmdd
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mh2lm
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-07-01
 
 # inherit from the proprietary version
--include vendor/lge/flashlmdd/BoardConfigVendor.mk
+-include vendor/lge/mh2lm/BoardConfigVendor.mk

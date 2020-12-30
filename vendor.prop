@@ -1,6 +1,6 @@
 #
-# vendor props for lge flashlmdd
+# vendor props for lge mh2lm
 #
 
 # LGE Misc
-ro.vendor.lge.swversion=V50020k
+ro.vendor.lge.swversion=G850
