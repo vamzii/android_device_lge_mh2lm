@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=flashlmdd
+DEVICE=mh21m
 VENDOR=lge
 
 # Load extract_utils and do some sanity checks
