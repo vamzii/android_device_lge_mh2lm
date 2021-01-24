@@ -17,7 +17,7 @@
 DEVICE_PATH := device/lge/mh21m
 
 # inherit from common v50
--include device/lge/flash-common/BoardConfigCommon.mk
+-include device/lge/mh21m-common/BoardConfigCommon.mk
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hardware=mh21m
