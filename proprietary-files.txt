@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from LM-V500EM 20i
+# All unpinned blobs below are extracted from LM-G850
 
 # Camera
 vendor/lib/hw/camera.msmnile.so
