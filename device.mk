@@ -36,4 +36,4 @@ $(foreach f,$(wildcard $(DEVICE_PATH)/rootdir/bin/*.sh),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/bin/$(notdir $f)))
 
 # common flash
-$(call inherit-product, device/lge/flash-common/flash.mk)
+$(call inherit-product, device/lge/mh21m-common/mh21m.mk)
