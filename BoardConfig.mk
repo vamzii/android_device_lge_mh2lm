@@ -14,20 +14,20 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lge/mh21m
+DEVICE_PATH := device/lge/mh2lm
 
 # inherit from common v50
--include device/lge/mh21m-common/BoardConfigCommon.mk
+-include device/lge/mh2lm-common/BoardConfigCommon.mk
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.hardware=mh21m
+BOARD_KERNEL_CMDLINE += androidboot.hardware=mh2lm
 
 # Recovery
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mh21m
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mh2lm
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-09-01
 
 # inherit from the proprietary version
--include vendor/lge/mh21m/BoardConfigVendor.mk
+-include vendor/lge/mh2lm/BoardConfigVendor.mk
