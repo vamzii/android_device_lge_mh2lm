@@ -35,7 +35,6 @@ vendor/lib/libmorpho_wdr2.so
 vendor/lib/libmpbase.so
 vendor/lib/libsnsapi.so
 vendor/lib/libspectre3.so
-vendor/lib/libtof_cal.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib64/hw/camera.msmnile.so
 vendor/lib64/hw/com.qti.chi.override.so
@@ -72,7 +71,6 @@ vendor/lib64/libmorpho_wdr2.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libspectre3.so
-vendor/lib64/libtof_cal.so
 
 # Camera - Automatic white balancing and exposure
 vendor/lib/camera/fdconfigpreview.bin
@@ -306,9 +304,8 @@ vendor/lib64/camera/components/libtofcapb.so
 vendor/lib64/camera/components/libtofrtb.so
 
 # Camera - configs
+vendor/etc/camera/iqm/ai_checker_graph.dlc
 vendor/etc/camera/iqm/fc4_awb.dlc
-vendor/etc/camera/iqm/wb_graph_imx363.dlc
-vendor/etc/camera/iqm/wb_graph_s5k3m3t.dlc
 
 # Camera - eeprom
 vendor/lib/camera/com.qti.eeprom.imx363_fm24c64d.so
@@ -332,12 +329,11 @@ vendor/lib64/camera/com.qti.sensor.s5kgd1_multicam.so
 
 # Camera - Sensormodule
 vendor/lib/camera/com.qti.sensormodule.imx363.bin
-vendor/lib/camera/com.qti.sensormodule.s5k3m5.bin
+vendor/lib/camera/com.qti.sensormodule.s5k3m3.bin
 vendor/lib/camera/com.qti.sensormodule.s5kgd1_front.bin
 vendor/lib/camera/com.qti.sensormodule.s5kgd1_multicam.bin
-vendor/lib64/camera/com.qti.sensormodule.imx351.bin
 vendor/lib64/camera/com.qti.sensormodule.imx363.bin
-vendor/lib64/camera/com.qti.sensormodule.s5k3m5.bin
+vendor/lib64/camera/com.qti.sensormodule.s5k3m3.bin
 vendor/lib64/camera/com.qti.sensormodule.s5kgd1_front.bin
 vendor/lib64/camera/com.qti.sensormodule.s5kgd1_multicam.bin
 
