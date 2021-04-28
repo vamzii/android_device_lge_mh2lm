@@ -1,7 +1,7 @@
 # All unpinned blobs below are extracted from LM-G850
 
 # Camera
-vendor/lib/hw/camera.msmnile.so
+vendor/lib/hw/camera.msmnile.so|4ccae2a14cfa95eb6c21cc0745d6221028e893fe
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libAutoContrast.so
 vendor/lib/libCmcPdaf.so
@@ -36,7 +36,9 @@ vendor/lib/libmpbase.so
 vendor/lib/libsnsapi.so
 vendor/lib/libspectre3.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
-vendor/lib64/hw/camera.msmnile.so
+vendor/lib/libarcsoft_picselfie_algorithm.so	
+vendor/lib/libarcsoft_beauty_picselfie.so
+vendor/lib64/hw/camera.msmnile.so|44c4f213e0ddb0f9f5597347890166455eb52c8e
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libAutoContrast.so
 vendor/lib64/libCmcPdaf.so
@@ -71,6 +73,8 @@ vendor/lib64/libmorpho_wdr2.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libspectre3.so
+vendor/lib64/libarcsoft_picselfie_algorithm.so	
+vendor/lib64/libarcsoft_beauty_picselfie.so
 
 # Camera - Automatic white balancing and exposure
 vendor/lib/camera/fdconfigpreview.bin
@@ -322,10 +326,12 @@ vendor/lib/camera/com.qti.sensor.imx363.so
 vendor/lib/camera/com.qti.sensor.s5k3m3.so
 vendor/lib/camera/com.qti.sensor.s5kgd1_front.so
 vendor/lib/camera/com.qti.sensor.s5kgd1_multicam.so
+vendor/lib/camera/sensors.hal.flicker.so
 vendor/lib64/camera/com.qti.sensor.imx363.so
 vendor/lib64/camera/com.qti.sensor.s5k3m3.so
 vendor/lib64/camera/com.qti.sensor.s5kgd1_front.so
 vendor/lib64/camera/com.qti.sensor.s5kgd1_multicam.so
+vendor/lib64/camera/sensors.hal.flicker.so
 
 # Camera - Sensormodule
 vendor/lib/camera/com.qti.sensormodule.imx363.bin
