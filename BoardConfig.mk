@@ -21,6 +21,8 @@ DEVICE_PATH := device/lge/mh2lm
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hardware=mh2lm
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 
 # Recovery
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe

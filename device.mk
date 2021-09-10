@@ -35,5 +35,18 @@ $(foreach f,$(wildcard $(DEVICE_PATH)/rootdir/etc/init/*.rc),\
 $(foreach f,$(wildcard $(DEVICE_PATH)/rootdir/bin/*.sh),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/bin/$(notdir $f)))
 
+
+# Platform
+TARGET_BOARD_PLATFORM := msmnile
+
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    av \
+    bt \
+    media \
+    perf \
+    vibrator
+
 # common flash
 $(call inherit-product, device/lge/mh2lm-common/mh2lm.mk)

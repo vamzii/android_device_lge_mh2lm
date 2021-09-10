@@ -24,11 +24,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/lge/mh2lm/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Device identifiers
-
-PRODUCT_NAME := lineage_mh2lm
+PRODUCT_NAME := pa_mh2lm
 PRODUCT_DEVICE := mh2lm
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
@@ -36,6 +35,9 @@ PRODUCT_RELEASE_NAME := G8X ThinQ
 PRODUCT_MODEL := LM-G850
 
 PRODUCT_GMS_CLIENTID_BASE := android-lge
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
 
 TARGET_VENDOR_PRODUCT_NAME := mh2lm_lao_com
 TARGET_VENDOR_DEVICE_NAME := mh2lm
